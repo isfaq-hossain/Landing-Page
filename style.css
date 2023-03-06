@@ -38,7 +38,9 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
     padding: 120px 0;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    
 }
 
 .heroContainer {
@@ -54,11 +56,15 @@ nav {
 
 .heroContainer p {
     margin: 18px 0;
+    text-align: justify;
+    line-height: 1.5rem;
 }
 
 .heroImage > img {
     height: 300px;
     width: 300px;
+    border: 2px solid #1f2937;
+    border-radius: 50%;
 }
 ul {
     list-style: none;
@@ -168,4 +174,8 @@ button {
   
 .footer a:hover {
     color: #333;
-  }
+}
+
+button:hover {
+    cursor: pointer;
+}
